@@ -1,0 +1,154 @@
+body {background-image:url("CN") ;
+    background-position: center;
+    background-color: rgb(206, 248, 248);
+    color:blue ;
+    font: size 20px;
+
+
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.7;
+    text-align: left;
+    place-items: right;
+}
+h3{
+    font-size: 1.3em;
+}
+
+.navigation {
+    color: blueviolet;
+}
+
+.navbutton {
+    box-sizing: border-box;
+    border-color: rgb(225, 240, 13);
+    background-color:rgb(247, 231, 8);
+    color:-webkit-validation-bubble-text-block;
+    border-width: 15px;
+    border-style: solid;
+
+}
+p{
+    text-align: right;
+    
+}
+#patrick{
+    color: rgb(236, 245, 236);
+    background-color: rgb(242, 43, 113);
+}
+
+.box {
+    background-color:#eccc68 ;
+    color:white;
+    font-size: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 4px;
+    width: 400px;
+    align-self: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    min-height: 0.02ch;
+    flex-direction: row;
+    flex-direction: center;
+    }
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    /* min-height: 0.02ch; */
+    flex-direction: row;
+    flex-direction: center;
+    padding: 80px;
+        }
+    /* Create ten diffenrent class for each color variation of the .box class */
+
+
+#boxtext {
+    text-align: justify;
+    vertical-align: text-top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+    display: flex;
+    width: 25%;
+    /* padding-left: 15px; */
+    margin: 15px;
+}
+
+.boxtext2 {
+    text-align: justify;
+    vertical-align: text-top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+    display: flex;
+    width: 80%;
+    /* padding-left: 25px; */
+    margin: 20px;
+    padding: 20px;
+
+}
+.textbox {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    align-content: right;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.photoscontainer{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 15px;
+
+}
+
+
+
+.photos{
+    display: flex;
+    width: 150px;
+    height: 110px;
+    padding: 20px;
+
+}
+.boxtext3{
+    text-align: justify;
+    vertical-align: text-top;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.0em;
+    display: flex;
+    width: 20%;
+    padding-left: 25px;
+    margin: 15px;
+
+
+}
+.photoscontainer3{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 15px;
+}
+
+.photoscontainer4{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 50px;
+    width: 100%;
+
+}
